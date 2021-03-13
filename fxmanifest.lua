@@ -1,5 +1,5 @@
 -- Manifest data
-fx_version 'bodacious'
+fx_version 'cerulean'
 games {'gta5'}
 
 -- Resource stuff
