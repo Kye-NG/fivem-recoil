@@ -1,4 +1,4 @@
-local currentPlayerPedId = ''
+local currentPlayerPedId = PlayerPedId()
 
 AddEventHandler('playerSpawned', function()
 	currentPlayerPedId = PlayerPedId()
