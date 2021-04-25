@@ -1,11 +1,12 @@
-local currentPlayerPedId = PlayerPedId()
+local currentPlayerPedId = nil
 
 AddEventHandler('playerSpawned', function()
 	currentPlayerPedId = PlayerPedId()
 end)
 
-
 Citizen.CreateThread(function()
+	currentPlayerPedId = PlayerPedId()
+
 	while true do
 		Citizen.Wait(0)
 
